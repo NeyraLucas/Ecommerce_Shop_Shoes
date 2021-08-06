@@ -1,0 +1,114 @@
+:root{
+    --color-primary: #D0EAF0;
+    --color-secondart: #009adc3a;
+    --color-btn-primary: #33C9F9;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: var(--color-primary);
+    font-family: 'Poppins', sans-serif !important;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    font-weight: 700;
+}
+
+.flex__container{
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem 0 1.5rem 0;
+}
+
+.button__reg{
+    background-color: var(--color-btn-primary);
+    padding: .5rem 115px;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    border: none;
+    font-weight:500;
+    color: white;
+    
+}
+
+.content__reg{
+    background-color: white;
+    border-radius: 32px;
+}
+
+.content_form{
+    margin: 1.5rem;
+    padding-top: 1rem;
+
+}
+
+.btn__log{
+    background-color: white;
+    color: black;
+    padding: 0.5rem 100px;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    
+}
+
+@media screen and (min-width: 768px){
+    .logo{
+        display: none;
+    }
+
+    .content__reg{
+        width: 500px;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .btn__log{
+        padding: 0.5rem 100px;
+    }
+
+    .button__reg{
+        padding-left: .5rem 100%;
+    }
+
+    .title__{
+        display: block !important;
+    }
+
+
+}
+
+@media screen and (min-width: 1024px){
+
+    .fondo{
+        display: block !important;
+        max-width: 100%;
+    }
+    
+    .content__reg{
+        width: 500px;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .button__reg{
+        padding: 0.5rem 100px;
+    }
+
+    .button__reg{
+        padding-left: .5rem 100%;
+    }
+
+
+}
